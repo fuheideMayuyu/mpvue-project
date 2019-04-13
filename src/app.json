@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/seller/main",
+    "pages/car/main",
+    "pages/my/main"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/sku",
+      "pages": [
+        "goodDetail/main"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "orderList/main",
+        "orderDetail/main",
+        "orderSubmit/main",
+        "payDetail/main"
+      ]
+    },
+    {
+      "root": "pages/userData",
+      "pages": [
+        "address/main",
+        "editAddress/main",
+        "logisticsInfo/main",
+        "userInfo/main"
+      ]
+    },
+    {
+      "root": "pages/map",
+      "pages": [
+        "map/main"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/main": {
+      "network": "all",
+      "packages": ["pages/sku", "pages/map"]
+    },
+    "pages/my/main": {
+      "network": "all",
+      "packages": ["pages/userData", "pages/order"]
+    },
+    "pages/car/main": {
+      "network": "all",
+      "packages": ["pages/order"]
+    },
+    "pages/sku/goodDetail/main": {
+      "network": "all",
+      "packages": ["pages/order"]
+    },
+    "pages/order/orderSubmit/main": {
+      "network": "all",
+      "packages": [ "pages/userData"]
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance":50
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#FB7954",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "商城",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png"
+      },
+      {
+        "text": "商家",
+        "pagePath": "pages/seller/main",
+        "iconPath": "static/images/seller.png",
+        "selectedIconPath": "static/images/seller-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/car/main",
+        "iconPath": "static/images/car.png",
+        "selectedIconPath": "static/images/car-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/main",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/my-active.png"
+      }
+    ]
+  }
+}

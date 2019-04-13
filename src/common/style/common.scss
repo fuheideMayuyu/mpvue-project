@@ -1,0 +1,77 @@
+page {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  background: #fff;
+  font-size: 28rpx;
+  color: #333333;
+  font-family:PingFangSC-Regular;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.text-color {
+  color: $themeColor;
+}
+.flex {
+  display: flex;
+}
+.flex-sub {
+  flex: 1;
+}
+
+.flex-twice {
+  flex: 2;
+}
+
+.flex-treble {
+  flex: 3;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.text-cut {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-content {
+  line-height: 1.6;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.alert-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.3;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: #333;
+}
+
+
+

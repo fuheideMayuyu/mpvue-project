@@ -1,0 +1,174 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wxe488fd96e0bfa136",
+	"projectname": "s2b2c-webchart-page",
+	"libVersion": "2.6.2",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 18,
+			"list": [
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/tabBarCart/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "编辑店铺形象",
+					"pathName": "pages/shopInShop/setShopImage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "申请开店",
+					"pathName": "pages/shopInShop/openShop/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "店铺设置",
+					"pathName": "pages/shopInShop/setShopName/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "编辑店铺形象",
+					"pathName": "pages/shopInShop/setShopImage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "店铺首页",
+					"pathName": "pages/shopInShop/index/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地址管理",
+					"pathName": "pages/userData/address/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/tabBarCategory/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全部商品",
+					"pathName": "pages/sku/goodsFilter/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "广告图",
+					"pathName": "pages/shopInShop/setBanner/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "编辑店铺形象",
+					"pathName": "pages/shopInShop/setShopImage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "优惠券",
+					"pathName": "pages/coupon/coupons/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单列表",
+					"pathName": "pages/order/allOrderList/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "推广店铺",
+					"pathName": "pages/share/promoteStore/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "店铺管理首页",
+					"pathName": "pages/shopInShop/index/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "订单详情",
+					"pathName": "pages/order/orderDetail/main",
+					"query": "fdealId=80216062158700544",
+					"scene": null
+				},
+				{
+					"id": 16,
+					"name": "商品详情",
+					"pathName": "pages/sku/goodDetail/main",
+					"query": "fproductId=916",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/tabBarUser/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": "经营分析",
+					"pathName": "pages/shopInShop/shopOperating/main",
+					"query": "fproductId=916",
+					"scene": null
+				}
+			]
+		}
+	}
+}
